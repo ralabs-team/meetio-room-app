@@ -20,7 +20,7 @@ const roomStatus = (props) => {
   if (props.status === 'Available') {
     statusText = props.status;
   } else if (props.status === 'Reserved') {
-    statusText = 'Available';
+    statusText = 'Reserved';
   } else if (props.status === 'Busy') {
     statusText = 'Busy';
   }
