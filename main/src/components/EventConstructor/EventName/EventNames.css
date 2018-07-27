@@ -1,0 +1,45 @@
+.EventNames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.EventName-item{
+  padding: 15px;
+  margin: 2px;
+  background: #f1f1cb;
+  border: none;
+  font-weight: bold;
+  font-size: 20px; 
+  text-transform: capitalize;
+  border-radius: 15px;
+  width: 170px;
+  text-align: center;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-size: 10 10;
+  background-size: 30px 30px;
+  background-position: 11px 14px;
+  opacity: 0.5;
+}
+.EventName-item:last-child{
+  padding-left: 20px;
+}
+.EventName-item-active{
+  opacity: 1;
+  background-color: white;
+}
+.inputFileds{
+  width: 100%;
+  text-align: center;
+}
+.inputFileds input{
+  height: 40px;
+  border-radius: 7px;
+  font-size: 20px;
+  text-align: center;
+}
+.inputFileds label {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

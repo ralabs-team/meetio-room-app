@@ -1,0 +1,17 @@
+.vscode/*
+hooks/*
+node_modules/*
+platforms/*
+plugins/*
+typings/*
+package-lock.json
+
+main/build/*
+main/node_modules/*
+main/scripts/*
+main/config/*
+
+www/*
+main/.env
+.idea/
+.DS_Store

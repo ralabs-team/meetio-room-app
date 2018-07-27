@@ -1,0 +1,41 @@
+.EventDuration{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.EventDuration-item{
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  background: #ab1414;
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  padding-left: 60px;
+  width: 170px;
+  margin: 1px;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: 21px 3px;
+  outline: none;
+  opacity: 0.5;
+}
+.EventDuration-item:last-child{
+  padding-left: 20px!important;
+}
+.EventDuration-item-active{
+  opacity: 1;
+  color: yellow;
+}
+input#event-start,
+input#event-end {
+  color: white!important;
+  font-size: 20px!important;
+}
+label[for="event-start"],
+label[for="event-end"]
+{
+  color: rgba(255, 255, 255, 0.6)!important;
+  font-size: 20px!important;
+}
