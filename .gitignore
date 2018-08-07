@@ -1,4 +1,5 @@
 .vscode/*
+.idea/*
 hooks/*
 node_modules/*
 platforms/*
@@ -7,11 +8,12 @@ typings/*
 package-lock.json
 
 main/build/*
-main/node_modules/*
 main/scripts/*
 main/config/*
 
-www/*
-main/.env
-.idea/
 .DS_Store
+
+www/*
+
+.env
+config.xml
